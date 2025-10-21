@@ -1,0 +1,5 @@
+services:
+  hello-world-app:
+    image: alpine:latest
+    container_name: hello-world-app
+    command: sh -c "echo 'Hello World! Webhook triggered!' && sleep 30"
